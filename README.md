@@ -29,8 +29,8 @@
 
 ```puml
 !define v8_PUML https://raw.githubusercontent.com/ovcharenko-di/1ce-icons-for-plantuml/0.2.0/dist
-!includeurl v8_PUML/common.puml
-!includeurl v8_PUML/v8_Catalog.puml
+!include v8_PUML/common.puml
+!include v8_PUML/v8_Catalog.puml
 и т.д.
 ```
 
