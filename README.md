@@ -26,9 +26,9 @@
 - в начале _вашего_ puml-файла добавить директивы импорта (обращайте внимание на версию):
 
 ```puml
-!define 1CEPUML https://raw.githubusercontent.com/ovcharenko-di/1ce-icons-for-plantuml/0.1.0/dist
-!includeurl 1CEPUML/common.puml
-!includeurl 1CEPUML/v8_Catalog.puml
+!define v8_PUML https://raw.githubusercontent.com/ovcharenko-di/1ce-icons-for-plantuml/0.1.0/dist
+!includeurl v8_PUML/common.puml
+!includeurl v8_PUML/v8_Catalog.puml
 и т.д.
 ```
 
