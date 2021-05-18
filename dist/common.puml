@@ -1,0 +1,14 @@
+@startuml
+
+' Creates an aliased entity with a sprite (label equals alias)
+' Params:
+'   e_sprite:   the sprite for the 1C:Enterprise icon representing the entity
+'   e_alias:    the alias to give the entity
+!define ENTITY(e_sprite,e_alias) object "<$e_sprite> e_alias" as e_alias
+
+' Creates an aliased entity with a sprite, alias and label
+' Params:
+'   e_sprite:   the sprite for the 1C:Enterprise icon representing the entity
+'   e_alias:    the alias to give the entity
+'   e_label:    the label to give the entity
+!define ENTITY(e_sprite,e_alias,e_label) object "<$e_sprite> e_label" as e_alias

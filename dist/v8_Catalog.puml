@@ -1,0 +1,25 @@
+@startuml v8_Catalog
+
+sprite $catalog [16x12/color] {
+zzrirSrSrSrSnRnRrSrSrSnRnRrSrSrSrRvizz
+zzj>evn=j;j<aeevn=j;j<aeevn=j;j<eunRzz
+zzafitzbvHv&aLitzbvHv&aLitzbvHv&aLj>zz
+zzafebv&v&qqaMebv&v&r*aMebv&v&r*aMj>zz
+zziweuj<j<iuaeeej<j<iuaeeej<j<iuaen?zz
+zzewewrSrSrSafewrSrSrSafewrSrSrSevn?zz
+zzafj>zzzzzzafj>zzzzzzafj>zzzzzzafj>zz
+zzafj>zzzzzzafj>zzzzzzafj>zzzzzzafj>zz
+zzafj>zzzzzzafj>zzzzzzafj>zzzzzzafj>zz
+zzafj>zzzzzzafj>zzzzzzafj>zzzzzzafj>zz
+zzafiwzzzzzzafiwzzzzzzafiwzzzzzzafj>zz
+zzafiwvzvzvzafiwvzvzvzafiwvzvzvzafj>zz
+zzafewvzvzvzafewvzvzvzafewvzvzvzafj>zz
+zzafewrjrjrjafewrjrjrjafewrjrjrjafj>zz
+zzj>afevevevWOaeevevevWOaeevevevafn?zz
+zzrin?n>n>n>n>n>n>n>n>n>n>n>n>n>nRvizz
+}
+
+!define v8_Catalog(_alias) ENTITY(catalog,_alias)
+!define v8_Catalog(_alias, _label) ENTITY(catalog,_alias,_label)
+
+@enduml
