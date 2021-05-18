@@ -23,5 +23,7 @@ zzrSj>afafafafafafafafafafafafafj>vizz
 
 !define v8_InfoRg(_alias) ENTITY(inforg,_alias)
 !define v8_InfoRg(_alias, _label) ENTITY(inforg,_alias,_label)
+!define _РегистрСведений(_alias) ENTITY(inforg,_alias)
+!define _РегистрСведений(_alias, _label) ENTITY(inforg,_alias,_label)
 
 @enduml
