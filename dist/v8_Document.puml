@@ -1,0 +1,27 @@
+@startuml v8_Document
+
+sprite $document [16x12/color] {
+zzrSn?j?j?j?j?j?j?j?j?j?j?j?j?j?j>rSzz
+zzn?j?nRnRnRnRnRnRnRnRnRnRnRnRnRefn?zz
+zzj?nRzzzzzzzzzzvivivivivivivjzzafj>zz
+zzj?nRzzzzzzzzvirinRnRnRnRrRvizzafj>zz
+zzj?nRzzzzzzzzzzzzzzzzzzzzzzzzzzafj>zz
+zzj?nRzzzzzzzzvzvirSrSrSrSrivizzafj>zz
+zzj?nRzzzzzzzzvzviririririvivizzafj>zz
+zzj?nRzzzzzzzzzzzzzzzzzzzzzzzzzzafj>zz
+zzj?nRzzvzvjvjvjvjvjvzvjvjvzvzzzafj>zz
+zzj?nRvjrSnRnRnRnRnRnRnRnRnRrivzafj>zz
+zzj?n?vjviriririririririririvivzafj>zz
+zzj?n?vjrirSrSrSrSrSrSrSrSrSrivzafj>zz
+zzj?j?rinSnRnRnRnRnRnRnRnRnRrSvjafj>zz
+zzj?j?ririririririririririririvjafj>zz
+zzj?j?rinRj?j?j?j?j?j?j?j?j?nRviafj>zz
+zzj?n?vjriririririririririririvzafj>zz
+zzewavj>j>j>j>j>j>j>j>j>j>j>j>j>WOj>zz
+zzj>afafafafafafafafafafafafafafafnRzz
+}
+
+!define v8_Document(_alias) ENTITY(document,_alias)
+!define v8_Document(_alias, _label) ENTITY(document,_alias,_label)
+
+@enduml

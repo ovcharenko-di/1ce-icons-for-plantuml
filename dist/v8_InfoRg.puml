@@ -1,0 +1,27 @@
+@startuml v8_InfoRg
+
+sprite $inforg [16x12/color] {
+zzvinRj?j?j?j?j?j?j?j?j?j?j?j?j?nRvizz
+zznRj>j=f=euevj>j=f=euevj>j=f=euaenRzz
+zzj?j=nejNb-f<nPnOjNb-f<nPnejNb-WMj>zz
+zzj?f<jNf-WpWdeujNf-WpWdeujNf-WpSMj>zz
+zzj?WsWpWpWpSLSbWpWpWpSLSbWpWpWpSMj>zz
+zzj?avatWdSLS:S:SLSLSLS:S:SMadauWNj>zz
+zzj?j>nRn?iwWNaOiwiwiwWNaOj>n?nRWOj>zz
+zzj?j?vjzzzzaeiwzzzzzzaeiwzzzzviafj>zz
+zzj?j?vivjviaeevviviviaeevvivjriaej>zz
+zzj?ewiwafWNS;S;S;S;S;S;S;WOefewWOj>zz
+zzj?j?nSrSnRWOadf<f;asSMafrRrSnRWej>zz
+zzj?j?rizzzzaeWcf:b-b+SMiwzzzzriaej>zz
+zzj?j>nRrSrRWOSLSaSaSaS:afrRrSnRWej>zz
+zzj?ewewafWNS;S;S;S;S;S;S;WOefewWOj>zz
+zzj?j?rivivievj>vivivievj>vivirSaej>zz
+zzj?j?riririj>n?riririj>n?riririaej>zz
+zzn?ewewewewafafewewewafafewewewafn?zz
+zzrSj>afafafafafafafafafafafafafj>vizz
+}
+
+!define v8_InfoRg(_alias) ENTITY(inforg,_alias)
+!define v8_InfoRg(_alias, _label) ENTITY(inforg,_alias,_label)
+
+@enduml

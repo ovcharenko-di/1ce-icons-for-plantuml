@@ -1,0 +1,27 @@
+@startuml v8_AccRg
+
+sprite $accrg [16x12/color] {
+zzrSn?j?j?j?j?j?j?j?j?j?j?j?j?j?j>rSzz
+zzn?j?nRnRnRnRnRnRnRnRnRnRnRnRnRefn?zz
+zzj?nRzzzzzzzzzzzzzzzzzzzzzzzzzzafj>zz
+zzj?nRzzzzzzzyzyzyzyzyzizizyzzzzafj>zz
+zzj?nRzzzzzyzgvNvMzLzLv-v;vQzzzzafj>zz
+zzj?nRzzzzvQzezdzczczbzbv+qrvQzzafj>zz
+zzj?nRzzzyv;vLzczszszbvKqomYr<zyafj>zz
+zzj?nRzyzhv:v+vKvKvKv&qYmHmZvPzyafj>zz
+zzj?nRvhvOzcvbr+mXmGm#i#mJr<vzzzafj>zz
+zzj?nRvhr;v+vbzbzbv*qomGmIqtvjzzafj>zz
+zzj?nRvirQqrqpqoqXmGqYqoqoqqrQviafj>zz
+zzj?n?vjriqtqqqpqoqov*v*qYmYr<viafj>zz
+zzj?j?rjrir=r:r-vLvKv*qpmZman=viafj>zz
+zzj?j?rinSnSn>mtmJm%i$iKmunRrSvjafj>zz
+zzj?j?rinSnSnSnRnRnRn?nRnRnSnSvjafj>zz
+zzj?nRvjrjvjvjvjvjvjrjrjrjrjvjvzafj>zz
+zzn?ewj>j>j>j>j>j>j>j>j>j>j>j>j>afn>zz
+zzrSj>afafafafafafafafafafafafafiwrSzz
+}
+
+!define v8_AccRg(_alias) ENTITY(accrg,_alias)
+!define v8_AccRg(_alias, _label) ENTITY(accrg,_alias,_label)
+
+@enduml

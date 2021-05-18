@@ -2,12 +2,15 @@
 
 !include dist/common.puml
 ' it is allowed to include all.puml - rather than an include per object.
-' !include all.puml
-!include dist/v8_Catalog.puml
+' !include dist/all.puml
+!include v8_AccRg.puml
+!include v8_Document.puml
+!include v8_Catalog.puml
+!include v8_InfoRg.puml
 
 title 1С:Enterprise icons for PlantUML
 
-caption НСИ
+caption НСИ и документы
 
 package ТМЦ <<Rectangle>> #ffff99 {
 
@@ -19,6 +22,13 @@ package ТМЦ <<Rectangle>> #ffff99 {
 
     v8_Catalog(одКлассыРентабельностиНоменклатуры, "Классы рентабельности номенклатуры")
     одКлассыРентабельностиНоменклатуры : Ссылка
+
+    v8_InfoRg(Ассортимент)
+
+    v8_Document(ПриобретениеТоваровУслуг, "Приобретение товаров и услуг")
+    v8_Document(ИзменениеАссортимента, "Изменение ассортимента")
+
+    v8_AccRg(СвободныеОстатки, "Свободные остатки")
 
 }
 
@@ -36,5 +46,8 @@ package Взаиморасчеты <<Rectangle>> #b3c6ff {
 ВидыНоменклатуры-->Номенклатура : Владелец
 Номенклатура-->одКлассыРентабельностиНоменклатуры
 Контрагенты-->ДоговорыСКонтрагентами
+
+ПриобретениеТоваровУслуг-down->СвободныеОстатки : "Приход"
+ИзменениеАссортимента-down->Ассортимент
 
 @enduml
