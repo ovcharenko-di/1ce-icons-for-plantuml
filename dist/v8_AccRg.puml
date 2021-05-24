@@ -23,5 +23,7 @@ zzrSj>afafafafafafafafafafafafafiwrSzz
 
 !define v8_AccRg(_alias) ENTITY(accrg,_alias)
 !define v8_AccRg(_alias, _label) ENTITY(accrg,_alias,_label)
+!define _РегистрНакопления(_alias) ENTITY(accrg,_alias)
+!define _РегистрНакопления(_alias, _label) ENTITY(accrg,_alias,_label)
 
 @enduml

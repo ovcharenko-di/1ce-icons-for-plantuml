@@ -23,5 +23,7 @@ zzj>afafafafafafafafafafafafafafafnRzz
 
 !define v8_Document(_alias) ENTITY(document,_alias)
 !define v8_Document(_alias, _label) ENTITY(document,_alias,_label)
+!define _Документ(_alias) ENTITY(document,_alias)
+!define _Документ(_alias, _label) ENTITY(document,_alias,_label)
 
 @enduml
