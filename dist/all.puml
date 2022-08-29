@@ -4,5 +4,6 @@
 !include v8_Document.puml
 !include v8_Catalog.puml
 !include v8_InfoRg.puml
+!include v8_Enum.puml
 
 @enduml

@@ -1,0 +1,26 @@
+@startuml v8_Enum
+
+sprite $enum16 [16x15/16] {
+0015AA0000AA5100
+0052000000002500
+00A0000000000A00
+00A0000000000A00
+00A0000000000A00
+0050000000000500
+0230000000000320
+0A100000000001A0
+0230000000000320
+0050000000000500
+00A0000000000A00
+00A0A30A30A30A00
+00A0320320320A00
+0052000000002500
+0015AA0000AA5100
+}
+
+!define v8_Enum(_alias) ENTITY(enum16,_alias)
+!define v8_Enum(_alias, _label) ENTITY(enum16,_alias,_label)
+!define _Перечисление(_alias) ENTITY(enum16,_alias)
+!define _Перечисление(_alias, _label) ENTITY(enum16,_alias,_label)
+
+@enduml
