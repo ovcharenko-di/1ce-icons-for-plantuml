@@ -44,4 +44,7 @@
 !include v8_CommonCommand.puml
 !include v8_CommandGroup.puml
 
+!include v8_CommonModule.puml
+!include v8_SessionParameter.puml
+
 @enduml

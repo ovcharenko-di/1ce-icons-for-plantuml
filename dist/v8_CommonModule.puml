@@ -1,0 +1,27 @@
+@startuml v8_CommonModule
+
+sprite $commonmodule [16x16/color] {
+zzvjvivivivivivivivivivivivizzzz
+nRSOK;JtJtJtJtJtJtJtJtJt~tSOnRzz
+j>O;O;O;O;O;O;O;O;O;O;O;NtO;j>zz
+nRj?rSrRnRnRnRnRnRnRnRnRrieviwzz
+rSnSrinSj?WgWgWgWgWgWgawrij>j>zz
+nSnRvivRr?r>rRrRr>r>r>rRvjj>j>zz
+nSnRvRuduMuMuvyvuMuMuMuuziiwj>zz
+nSnRvivRv>uvv>r?r>v>uvvRvjiwj>zz
+nSnRvjrjqvu:uuivivuuu:qvvziwj>zz
+rSnRririrRn>mwj>n>n>mwn?riiwj>zz
+rSnRrinSnSewW;W;efefafewn?iwj>zz
+rSnRrirSrSnSn?n?nRnRnRnSriiwiwzz
+nRj?riririririririririririewj>zz
+riiwewewewewewewewewewewewevrRzz
+zzvivivivivivivivivivivivivizzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_CommonModule(_alias) ENTITY(commonmodule,_alias)
+!define v8_CommonModule(_alias, _label) ENTITY(commonmodule,_alias,_label)
+!define _ОбщийМодуль(_alias) ENTITY(commonmodule,_alias)
+!define _ОбщийМодуль(_alias, _label) ENTITY(commonmodule,_alias,_label)
+
+@enduml

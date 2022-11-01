@@ -1,0 +1,27 @@
+@startuml v8_SessionParameter
+
+sprite $sessionparameter [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzrjnivzzzzzzzzzzzzz
+zzzzzzzzzzzznjb^WynSzzzzzzzzzzzz
+zzzzzzzzzznjbTT@OhSxnSzzzzzzzzzz
+zzzzzzzznjbTT@OgOQOhSxnSzzzzzzzz
+zzzzzznjbTT@OP~tK=KgOhSxnSzzzzzz
+zzzznjbTT@OP~b?*~uKPKQOhSynSvzzz
+zznjX@SyOg~t?K?KG<KQKQKQKQSgnSzz
+zznSOQG=K=KPKPOgSySyOP~c?*~bj>zz
+zzvzj?KPG=KPKgOxX@Og~c;*~Jefvizz
+zzzzzzj?KPG=KPOgOP~c;*~Kevvzzzzz
+zzzzzzzzj?KPG=G=~c;*~Kevvzzzzzzz
+zzzzzzzzzzj?OP?u;*~Kevvzzzzzzzzz
+zzzzzzzzzzzzj?K<~befvzzzzzzzzzzz
+zzzzzzzzzzzzvzj?j>vizzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_SessionParameter(_alias) ENTITY(sessionparameter,_alias)
+!define v8_SessionParameter(_alias, _label) ENTITY(sessionparameter,_alias,_label)
+!define _ПараметрСеанса(_alias) ENTITY(sessionparameter,_alias)
+!define _ПараметрСеанса(_alias, _label) ENTITY(sessionparameter,_alias,_label)
+
+@enduml
