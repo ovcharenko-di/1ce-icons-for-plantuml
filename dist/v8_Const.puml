@@ -1,0 +1,27 @@
+@startuml v8_Const
+
+sprite $const [16x16/color] {
+zzzzzzzzzzzzzzzzzzrinSj?j?nSrizz
+zzzzzzzzzzzzzzzzrif@awawWwWgawnS
+zzvzrjnSnSrSrizznSaxnSninSf?SfjS
+zzjSaxWxWxWwaxnSnSWgjSjSj?awOPj?
+vjf?exj?f?awSPexnSSPf?f?axWgOOj?
+vjaxawj?f?awOOagnROPWfWfSPOOK<j?
+viWwWgawWgWfO<WgrSSPK<K<K<K<OPj?
+viWgSPWfSOSOJtWfvjnRf?f?f?f?nSvz
+vjawK<JtJtJt~tSOf?j?j?nSrizzzzzz
+vzf?SPSPSPOOO<OOWgWgWgSPaxrSzzzz
+vjaxf?nSj?ewSPWfnSjSj?agSgnRzzzz
+vjawawf?axagOOSPj?exawWfSPnRzzzz
+viWwWfawWfWPO<OPawWgWfSOOPnRzzzz
+vjWgSOSOO<O;JtK<SPSOO<K;O<nRzzzz
+vzaxK<JtJt~t~tJtK;Jt~t~tSfrSzzzz
+zzrijRf>f?f?j?j?f>f>f>j?nSzzzzzz
+}
+
+!define v8_Const(_alias) ENTITY(const,_alias)
+!define v8_Const(_alias, _label) ENTITY(const,_alias,_label)
+!define _Константа(_alias) ENTITY(const,_alias)
+!define _Константа(_alias, _label) ENTITY(const,_alias,_label)
+
+@enduml

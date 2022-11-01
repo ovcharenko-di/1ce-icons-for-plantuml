@@ -1,0 +1,27 @@
+@startuml v8_BusinessProcess
+
+sprite $businessprocess [16x16/color] {
+zzzzzzzzrSnRn?j?j?f>j?vzzzzzzzzz
+zzzzzzviWfSgSgSgOgG=~urizzzzzzzz
+zzzzzzviWfSxSySyT@OhOPrizzzzzzzz
+zzzzzzvzewOPG=G<G=OPawvjzzzzzzzz
+zzzzzzzzrif?OO?dOOf?rizzzzzzzzzz
+zzzzzzzzzzzhn=adn=vhzzzzzzzzzzzz
+zzzzzzvirRv<vOzOv<qtrQvizzzzzzzz
+zzzzzznRr>r;zNzOv;msr>r>zzzzzzzz
+zzzzvin>vhqsqaqaqaqsvQqdzRzzzzzz
+zzzzvin>vivQr<r<r<v<ucu+udzhzzzz
+zzzzzzn>zzzzzzzzziucpptpppuMzhzz
+rRafaeWOafafafaei:pYtYtotYpYqLzR
+rRS;?K~b~b~b?LS:i-pHpHpHpHpHq-zR
+zzrSWOJbJsJbWOrSzRq-l$kml$q-zRzz
+zzzzriaeNsaerizzzzvRpqgmlqvRzzzz
+zzzzzzviiwvizzzzzzzzvQq:v>zzzzzz
+}
+
+!define v8_BusinessProcess(_alias) ENTITY(businessprocess,_alias)
+!define v8_BusinessProcess(_alias, _label) ENTITY(businessprocess,_alias,_label)
+!define _БизнесПроцесс(_alias) ENTITY(businessprocess,_alias)
+!define _БизнесПроцесс(_alias, _label) ENTITY(businessprocess,_alias,_label)
+
+@enduml

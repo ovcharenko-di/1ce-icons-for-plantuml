@@ -1,0 +1,27 @@
+@startuml v8_CommonAttribute
+
+sprite $commonattribute [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzrjnjjjjjjjjjjjjjjjjjnjrjzzzz
+zzvzfTbTbTbTbTbTbTbTbTbTb^b@vzzz
+zzvjX@bTbTbTbTbTbTbTbTbTX^Shrizz
+zzviShOySySySySySySySySyOhK=rizz
+zzriK<G=KQKQKQKQKQKQKQKQG=~trSzz
+zzriG<;c?c?c?c?c?c?c?c?c;M~trizz
+zzvzf?afaeaeaeaeaeaeaeaeaff?vzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_CommonAttribute(_alias) ENTITY(commonattribute,_alias)
+!define v8_CommonAttribute(_alias, _label) ENTITY(commonattribute,_alias,_label)
+!define _ОбщийРеквизит(_alias) ENTITY(commonattribute,_alias)
+!define _ОбщийРеквизит(_alias, _label) ENTITY(commonattribute,_alias,_label)
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml v8_CommandGroup
+
+sprite $commandgroup [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzizhzhzhzhzyzzzzzzzzzzzzzzzz
+zzzhr;r:r:r:r:vNzyzzzzzzzzzzzzzz
+zyvOvfzgzfzgvfvMvPvhzizizizizyzz
+zir;zgzxzwzwzwver;r;r;r;r;r;vPzz
+zir;vgzvzfzfvevevevevevevOr:qszi
+zir;vfzezdvdr;n;vNvdzdzdvdr-mszi
+zir;vOvcvMvMmtrQr<r:vMvMvMr-mszi
+zir;vOvMvLv-msvivirPn:vLvLqqmszi
+zir;vOvMvLv-mtvivirPmtvMvLqqmszi
+zir;vPvNvNv:mtrQr=r;vNvNvMqrmszi
+ziqsvPvOvNvNn;mtr;vNvNvOvNqsmszi
+ziqsr;r;r:r:r:qsr:r;r:r;r:mrqszy
+zzvPqtmsmsmsmsqsmsmsmsmsmsqsvPzz
+zzzyzivivivivivivivivivivizizyzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_CommandGroup(_alias) ENTITY(commandgroup,_alias)
+!define v8_CommandGroup(_alias, _label) ENTITY(commandgroup,_alias,_label)
+!define _ГруппаКоманд(_alias) ENTITY(commandgroup,_alias)
+!define _ГруппаКоманд(_alias, _label) ENTITY(commandgroup,_alias,_label)
+
+@enduml

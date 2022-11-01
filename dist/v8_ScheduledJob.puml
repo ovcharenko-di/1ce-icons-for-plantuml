@@ -1,0 +1,27 @@
+@startuml v8_ScheduledJob
+
+sprite $scheduledjob [16x16/color] {
+zzzzzzzzzzvjvivivivjzzzzzzzzzzzz
+zzzzzzrij?agSQO=K=O=agrSzzzzzzzz
+zzzznSWgWgexj?efRu~v~uO=j?zzzzzz
+zznSWgexrSvzzRu-dsO>O=~uK=j?zzzz
+vjagWgvizzzzzjmwWPSQSQO=~eSQrizz
+nSWgj@zzzzzzzznSWQS>S>O>JvJuj?zz
+j?Wgr?zivzvzvzj@WQSQSQS=Nu~eagzz
+exWgudydvzvjvjj@WhahahhshsJvagzz
+exWguvuvvjvjvjrjrSrTnTqvqfSQagzz
+j?WgnSvjvjvjvjvjrjrjrjrTn@SQexzz
+nSWQf?vjvjrjrjrjrjrjrjrjexSQnSzz
+vjagWQnSrjrjrSr?rSrjrjnSSQWgvjzz
+zznSWgWgj@nTr?u-uenTj@WgWQnSzzzz
+zzzznSSQSQahexigegahSQSQnSzzzzzz
+zzzzzzriexWgSQOQSQWgexrizzzzzzzz
+zzzzzzzzzzvjvirivivjzzzzzzzzzzzz
+}
+
+!define v8_ScheduledJob(_alias) ENTITY(scheduledjob,_alias)
+!define v8_ScheduledJob(_alias, _label) ENTITY(scheduledjob,_alias,_label)
+!define _РегламентноеЗадание(_alias) ENTITY(scheduledjob,_alias)
+!define _РегламентноеЗадание(_alias, _label) ENTITY(scheduledjob,_alias,_label)
+
+@enduml

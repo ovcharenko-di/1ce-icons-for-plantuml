@@ -1,0 +1,27 @@
+@startuml v8_ExchangePlan
+
+sprite $exchangeplan [16x16/color] {
+zzzzzzzzrSf>j?f?awawewrizzzzzzzz
+nQWbacnQf>WgnTnjf@Sgawf=etnQj<nQ
+nP~n;~acewSPjTjSSgK<Wgj=asWbJnas
+nQWLJnasewSPjTjSSgK=K<n?j=~n;~ac
+j<Wcj<nQewSPjTjSWgK=?cafnQacWcnQ
+rQnQzzzzewSfjSjSWhK<?davzzzzzzzz
+zzzzzzzzrSawf?awSPOOWPnRzzzzzzzz
+zzrinRj?ewewewj>j>j?j?j?j?j>j?ri
+rSewj?f?awawafnRzzrSf>j?f?awawag
+j?SfnTnjnSnSewnRzzewWgnTnjf@WgK;
+f>OPjTjSjSevSLWbnQnRf?rjjSSgK=?d
+f>OPjTjSjSSL;~~nj=vif=nQnSSgK=?d
+f>OPjTjSjSWb~nSLasacWcnQnTSgK=?d
+j?OPjSjSjSf=Wdevf<atf=rinTWxK=~t
+rSawaxWwWgewj?rizzvin?j?awOPO<SP
+zzvinSn?j?nRrizzzzzzrinSn?j?nRvi
+}
+
+!define v8_ExchangePlan(_alias) ENTITY(exchangeplan,_alias)
+!define v8_ExchangePlan(_alias, _label) ENTITY(exchangeplan,_alias,_label)
+!define _ПланОбмена(_alias) ENTITY(exchangeplan,_alias)
+!define _ПланОбмена(_alias, _label) ENTITY(exchangeplan,_alias,_label)
+
+@enduml

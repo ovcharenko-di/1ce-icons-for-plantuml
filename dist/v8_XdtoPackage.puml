@@ -1,0 +1,27 @@
+@startuml v8_XdtoPackage
+
+sprite $xdtopackage [16x16/color] {
+zzzzzzzzzzvivivivivivivivivizizz
+zzzzzzzzvQiLZpVqRrZqdpZpZpZpiLvQ
+zzzzzzrRideLVqNrRrVpVYVYVYVXZXmu
+zzzzvReeW;W;S;O;NsNbJbJaJaRZZHmd
+zzvQmticiMeMS:aMiLe-a+ZpNaNZVYiu
+viqtmLmLmLaMaNiLiKiKi*hpRqJaRqmv
+vQmcqtqtqtaNaNmcmLiLi+i*Rq~bNZmu
+vQmcquqtqtaNaNmcmLmLi+ZpNbNaVYmd
+vQicmdididW:W:iMe-e+ZqNa~bNZZXmd
+rRaNWNW;S:NsJsNrNrNrJbRrNbNZdpr=
+vQicididicS:RreLe-e-a+e*RqRrr=zz
+v>mLqtmcmcRrRrmLi+i+i*dpe-n>zzzz
+vQiLmcmLmLVrVri+i*dpdpiLr>zzzzzz
+vRmdmcmcmcededmciLiLiLr=zzzzzzzz
+zzzivivizivivizivivivizzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_XdtoPackage(_alias) ENTITY(xdtopackage,_alias)
+!define v8_XdtoPackage(_alias, _label) ENTITY(xdtopackage,_alias,_label)
+!define _ПакетXDTO(_alias) ENTITY(xdtopackage,_alias)
+!define _ПакетXDTO(_alias, _label) ENTITY(xdtopackage,_alias,_label)
+
+@enduml

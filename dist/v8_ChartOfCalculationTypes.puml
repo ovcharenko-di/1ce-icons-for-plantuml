@@ -1,0 +1,27 @@
+@startuml v8_ChartOfCalculationTypes
+
+sprite $chartofcalculationtypes [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzrhf;f;rhzzzzzzzzzzzz
+zzzzzzzzrhf;SaKHKGSaf;rQzzzzzzzz
+zzzzrhj<WaKHKGKGKGKGKGSZf;rRzzzz
+vhf;WqOYOXOYSYSYSYOYOXOXOYWqf;rh
+vhetWaSYSoWpWpWqWqWpWpWpSpWqf;rh
+zzzzrhj<WrWqb-f-f-b-WqWaetrQzzzz
+zzzzrhadO*JnSJaqWqSJJnJnSLnQzzzz
+rhatSK~n?V?W~WK%K%?W?W?m~mSJetrh
+rhasSJKHKHKHK%K%K%K%KHKHKHSZatrh
+zzzzrRf;WqSZSoSpSpSoSZWrf;rRzzzz
+zzzzzzzzrhj<arWpWpasj<rhzzzzzzzz
+zzzzzzzzzzzzrhj<jPrhzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_ChartOfCalculationTypes(_alias) ENTITY(chartofcalculationtypes,_alias)
+!define v8_ChartOfCalculationTypes(_alias, _label) ENTITY(chartofcalculationtypes,_alias,_label)
+!define _ПланВидовРасчета(_alias) ENTITY(chartofcalculationtypes,_alias)
+!define _ПланВидовРасчета(_alias, _label) ENTITY(chartofcalculationtypes,_alias,_label)
+
+@enduml

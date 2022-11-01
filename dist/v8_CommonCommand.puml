@@ -1,0 +1,27 @@
+@startuml v8_CommonCommand
+
+sprite $commoncommand [16x16/color] {
+zzzzzzzzzzvivRvQvRvRvizzzzzzzzzz
+zzzzzzvhr<qtr<r=r=r<msr<vhzzzzzz
+zzzzvhr;r<vPvhzhzhvhvPr:msvhzzzz
+zzvhn:r;vgzxzxzxzyzyzxvgr:mrvhzz
+zzr<r:vfzwrPrPvQvgzwzwzwvemqr;zz
+vimqvMzeverOvhvRrPvevezezer-mqvh
+vQmpvKzcvMn;vizzvirQrOvNvcvJmYvQ
+rPmov&vLvLn;vizzzzzzvRn:vLv&mXvQ
+rPmXv&vLv-n;vizzzzzzrRr:v+v&mXvQ
+vQmYqovMv:n;vizzvirQr;v:vMqomYvQ
+vimZqpvMvNr<vRrRr<vOvNvOvMqpmZvi
+zzr;mZr:vPvPr=rPvPvfzfvPr:mZr;zz
+zzvhmrmav;vQvgvgzhzhvgv;mamrvhzz
+zzzzvQmrmbr;vPvQvQvPr;mrmrvhzzzz
+zzzzzzvhr<msmsmtmtmsmsr<vhzzzzzz
+zzzzzzzzzzvivQrQvQvQvizzzzzzzzzz
+}
+
+!define v8_CommonCommand(_alias) ENTITY(commoncommand,_alias)
+!define v8_CommonCommand(_alias, _label) ENTITY(commoncommand,_alias,_label)
+!define _ОбщаяКоманда(_alias) ENTITY(commoncommand,_alias)
+!define _ОбщаяКоманда(_alias, _label) ENTITY(commoncommand,_alias,_label)
+
+@enduml

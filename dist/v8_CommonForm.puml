@@ -1,0 +1,27 @@
+@startuml v8_CommonForm
+
+sprite $commonform [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zznRewawawawawawawawawawawawnRzz
+vjWO~c?c?c?c?c?c?c?c?c?c?c~cWOvi
+viafafevevevevevevevevevevafWOvi
+vjj?vjzzzzzzzzzzzzzzzyzizzviefvi
+vjj?rin>ivivivivivrRvivizzriefvi
+vzj?rSn>ivivivivivrRvivizzriafvi
+vzj?rSn>ivivivivivrRvivizzriafvi
+vzj?rSiveeeeeeeeivn>vivivirSafvi
+vzj?rSiveeivrRvivirRvivivirSafvi
+vzj?rSiveeivrRvivirRvivivirSafvi
+vzj?nRiveeivrRvivirRrRvivirSafvi
+vzj?rSn>iwn>vzzzzzvivizzzzriafvi
+vzj>j>j?j?j?j?j?j?j?j?j?j?iwevvi
+zzrSn?j>j?j?j>j>j>j?j?j>j>n?rRzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_CommonForm(_alias) ENTITY(commonform,_alias)
+!define v8_CommonForm(_alias, _label) ENTITY(commonform,_alias,_label)
+!define _ОбщаяФорма(_alias) ENTITY(commonform,_alias)
+!define _ОбщаяФорма(_alias, _label) ENTITY(commonform,_alias,_label)
+
+@enduml

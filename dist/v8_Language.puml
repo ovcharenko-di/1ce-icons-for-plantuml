@@ -1,0 +1,27 @@
+@startuml v8_Language
+
+sprite $language [16x16/color] {
+zzzzrjfRP-GpSvnSzzzzvivivizzzzzz
+zzjfbQXSP=Gc@;KNf<rRn>ivivn>vizz
+riTLPLT>OxKQ@:<%OZnQvivivin>n>vi
+niL:H&L:KgGQ@-+#@%f=zzzzzzviawf?
+jSGeGqGsGP@=;r*n;qawzzzzzzzzWwax
+jSG=GO@K@I;s*c#a?sf?zzzyzzzzawax
+nSKP;u;r*n*a#M#MOPriziviviziWwax
+riWwG<*c*b*M*dK<j?viviviviviWgWw
+nSf?nRWgK=K<awrSviviviviviviWwaw
+j?awvin?nRririrRnRrSvivirRrRf>nS
+riawaOS:aerReeJaRsaOnRrRWNNsS;j?
+vjWOaOrRaNaeW;NbivWNefaeWNrRaeev
+vjO;S:n?S:S;S;~KNsO:afS;WNviewj?
+vzS;?*Nr?JS;S;JbWfS;WeWOS;f>WOev
+zzaeWNrRWNaeae~aNsaOrRrRWNNsaOrR
+zzvizzzzzzvivjririvizzzzvirivizz
+}
+
+!define v8_Language(_alias) ENTITY(language,_alias)
+!define v8_Language(_alias, _label) ENTITY(language,_alias,_label)
+!define _Язык(_alias) ENTITY(language,_alias)
+!define _Язык(_alias, _label) ENTITY(language,_alias,_label)
+
+@enduml

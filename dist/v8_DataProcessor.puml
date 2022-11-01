@@ -1,0 +1,27 @@
+@startuml v8_DataProcessor
+
+sprite $dataprocessor [16x16/color] {
+zzzzzzzzzzzzzzzzzzvir=r=vizzzzzz
+zzzzzzzzzzzzzzzzvir>vPrOr=vizzzz
+zzzzzzzzzzzzzzvirQvOzezdr:r=vizz
+zzzzzzzzvirRrRmvn<vNzbzLzbvMr=vi
+zzzzzzzzaNNaW:W-eKmpzJzIzazar:r=
+zzzzzzzzeeaNrRmumrv&zHzHzHr*qtvh
+zzzzzzzzaNaNzzzyr<v*zHzGr&msvRzz
+zzvivivieeaevivirRr;v&r&mtvRzzzz
+viavWOewS:S:ewSOewrRr;r;vRzzzzzz
+n?SOawf?W;W;f?awWfj?zivizzzzzzzz
+ewSOf?Jb:W:WJbf?Sfafzzzzzzzzzzzz
+evOOjTSf:o:oSfjTSPafzzzzzzzzzzzz
+ewOOfTfTSPSPfTfTOPafzzzzzzzzzzzz
+n?SOSgSgSgSgSgSgSOj>zzzzzzzzzzzz
+viavS<O;O;O;O;S;evrizzzzzzzzzzzz
+zzvzvivivivivivivzzzzzzzzzzzzzzz
+}
+
+!define v8_DataProcessor(_alias) ENTITY(dataprocessor,_alias)
+!define v8_DataProcessor(_alias, _label) ENTITY(dataprocessor,_alias,_label)
+!define _Обработка(_alias) ENTITY(dataprocessor,_alias)
+!define _Обработка(_alias, _label) ENTITY(dataprocessor,_alias,_label)
+
+@enduml

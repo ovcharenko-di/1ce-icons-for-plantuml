@@ -1,0 +1,27 @@
+@startuml v8_WsReference
+
+sprite $wsreference [16x16/color] {
+zzzzzzzzvzrjnifOfOjPnSvjzzzzzzzz
+zzzzzzrijibTT?L*H%GZOeWxnSzzzzzz
+zzzzngbdbSX^T@P;H&@Y@;?uOPnRzzzz
+zzviXMLJTOXSX^SxKd@L@<;u<+Sbrhzz
+zznibNXcbdjijTfSb@SxGP<+<$@Hf<zz
+zzrirhrhrhririrSnSj@Sf@H<#<$Sbvy
+zzrinSn?j?j>j>iwevj?b>@H+#*lGIvi
+zzrRn?iwewewefafWOaff>KZ<$*Y@-vi
+vin?iwewewefafafWOS<ewWt<%#L~uvi
+n?iwewewefafafaOWOS;WPew;q*MOPvj
+iwiwewefafafaOWOWOW<S;aw;d;dewzz
+n?efefafafaOWOWOWOS;WOaw?tOPrizz
+riafafafaOWOWOWOS<NtafawSPnRzzzz
+zzevWOaOWOWOWOWOS;S<ewf?nSzzzzzz
+zzrRS<NtNtNsNtJcNsj>rivizzzzzzzz
+zzzzn?j>iwiwiwiwj?zzzzzzzzzzzzzz
+}
+
+!define v8_WsReference(_alias) ENTITY(wsreference,_alias)
+!define v8_WsReference(_alias, _label) ENTITY(wsreference,_alias,_label)
+!define _СсылкаWS(_alias) ENTITY(wsreference,_alias)
+!define _СсылкаWS(_alias, _label) ENTITY(wsreference,_alias,_label)
+
+@enduml

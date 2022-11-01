@@ -1,0 +1,27 @@
+@startuml v8_IntegrationService
+
+sprite $integrationservice [16x16/color] {
+zzzzzzzzzzzzzzririririzzzzzzzzzz
+zzzzzzzzzznifRbQbPX=T?X@nivzzzzz
+zzzzzzvzjSX?X>XQX>T>GxGwT>jhvzzz
+zzzzzznhbPbPfPfQX?KxGhKuX;bOnhzz
+zzzzvifffdjdnejQX?KxGgOtT-T:bPri
+zzzznhfdjbncfOWwOxGhGfT:X-OsX<jR
+zzvzfQX:bLX:KvGh@h@hKtfJjZbKbMb=
+zzvjb?KeKcGd<P<Q+Q<QKdfJjZfZbKX<
+vij>WfKPKNKNGOG=GPGPKOOcSqbJfKb=
+aeNsS;afewewevevewewWfK=GMT*bLjR
+Ja~KNsiwnRn?n?n?n?nRj>SPG:Oqb;ri
+?&?J~aafj?ewewewewiwewSOG;OdjRzz
+~J?J~KSOWfWfWfWfWfWfWOO;O<f?vzzz
+aNJa~KJrJsJsJsJsJsJsJrS;j>vjzzzz
+riivaeaeaeaeaeaeaeaeevn>vizzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_IntegrationService(_alias) ENTITY(integrationservice,_alias)
+!define v8_IntegrationService(_alias, _label) ENTITY(integrationservice,_alias,_label)
+!define _СервисИнтеграции(_alias) ENTITY(integrationservice,_alias)
+!define _СервисИнтеграции(_alias, _label) ENTITY(integrationservice,_alias,_label)
+
+@enduml
