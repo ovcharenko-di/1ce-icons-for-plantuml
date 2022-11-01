@@ -49,4 +49,7 @@ v8_WebService(ВебСервис)
 v8_WsReference(ВебСсылка)
 v8_XdtoPackage(ПакетXDTO)
 
+v8_CommonModule(ОбщийМодуль)
+v8_SessionParameter(ПараметрСеанса)
+
 @enduml
