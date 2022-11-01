@@ -1,0 +1,27 @@
+@startuml v8_ChartOfAccounts
+
+sprite $chartofaccounts [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzrinSnSnSnSnSjSnRvzzzzzzzzzzz
+zzvjawOPSgWxSgOPK<O<vizzzzzzzzzz
+zzvzj?ewf?WwOOafewewvizzzzzzzzzz
+zzzzzzzzvzWwJtewnRnSnSnSjSnRvzzz
+zzzzzzzzvzWw?c~cO<WwSgOPK<O<vizz
+zzzzzzzzvzWw~tWOewWgO<afavewvizz
+zzzzzzzzvzWxO<vizzWwO<vizzzzzzzz
+zzzzzzzzvzWxO<vizzWwO<rizzzzzzzz
+zzzzzzzzvzWxO<vizzWwO<rizzzzzzzz
+zzzzzzzzvzaxSOvizzWxO<rizzzzzzzz
+zzzzzzzzzznSj?zzvzWxO<rizzzzzzzz
+zzzzzzzzzzzzzzzzvzWxO<rizzzzzzzz
+zzzzzzzzzzzzzzzzvzaxSOrizzzzzzzz
+zzzzzzzzzzzzzzzzzznSn?vzzzzzzzzz
+}
+
+!define v8_ChartOfAccounts(_alias) ENTITY(chartofaccounts,_alias)
+!define v8_ChartOfAccounts(_alias, _label) ENTITY(chartofaccounts,_alias,_label)
+!define _ПланСчетов(_alias) ENTITY(chartofaccounts,_alias)
+!define _ПланСчетов(_alias, _label) ENTITY(chartofaccounts,_alias,_label)
+
+@enduml

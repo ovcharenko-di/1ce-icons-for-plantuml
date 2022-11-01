@@ -1,0 +1,27 @@
+@startuml v8_Style
+
+sprite $style [16x16/color] {
+zzzzzzzzzzzzzzzzvivivjvjvivizzzz
+riewewewewj?nRWO~K~K?J?J~KJbRsn>
+nRj?vivivivivzaeNsaOJb~KS;WNWNj>
+nRn?zzzzzzzzzzivefriS;NsafeviwnR
+nRn?zzzzzzzzzzvjviviS:S:efiwzzzz
+nRn?zzzyzhvhzhzyzzrSS:aeiwiwzzzz
+nSj?zfvLr&qnqor-vgn?S;evj>iwzzzz
+nSiNuZv#z_vUrGr*r;iuS;j>j>iwzzzz
+r>knt#yVz_v~rIrerQWNNreveviwzzzz
+qfo~w#xGyVv$jKrQefJb~KS:WOj>zzzz
+uvopwpsptomob-jPnQj=j>nReviwzzzz
+qvl-ldhNZbSLGr@q@Z@Jauvziwiwzzzz
+qwdMddVNNN?u+<$L$J<+auvjewiwzzzz
+r?VcV:Mt~;?N?f*u$:GNf>rieviwzzzz
+viaORMIr>r>s?N~eJtSOafafafnRzzzz
+zzvjn?a;RMNMRdaPn?vivivivizzzzzz
+}
+
+!define v8_Style(_alias) ENTITY(style,_alias)
+!define v8_Style(_alias, _label) ENTITY(style,_alias,_label)
+!define _Стиль(_alias) ENTITY(style,_alias)
+!define _Стиль(_alias, _label) ENTITY(style,_alias,_label)
+
+@enduml

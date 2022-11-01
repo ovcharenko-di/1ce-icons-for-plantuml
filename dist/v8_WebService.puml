@@ -1,0 +1,27 @@
+@startuml v8_WebService
+
+sprite $webservice [16x16/color] {
+zzzzzzzzvzrjnifOfOjPnSvjzzzzzzzz
+zzzzzzrijibTT?L*H%GZOeWxnSzzzzzz
+zzzzngbdbSX^T@P;H&@Y@;?uOPnRzzzz
+zzriXMLJTOXSX^OxKd@L@<;u<+Sbrhzz
+zzribOXcbdjijTfTb@Oh@<<+<$@Hf<zz
+zzrirQrPvQvQvQvQrQf?KO<H<#<$Sbvy
+zzvRv=uuqtqdqdqcmcmvav@I+#*lGIvi
+zzv=qtqdmcmMiLiKi+iLj=Oq<$*Y@-vi
+zRuumdmcmMiLiLi+e*e+idat<&#L~uvi
+uuqdmcmMiLiLi+e+dpdoe-ev;r*MOPvj
+qcmcmMiLiLi+e+dpdpZYZpav;d;dewzz
+qtmciLiLi+e+dpdpZoZYZqav?tOPrizz
+vQiLi+i+e+dpdpZoZYVYeMawSPjRzzzz
+zymce+e+dpdpZoZYZYZqivj?nSzzzzzz
+zzrQiLZXVHVHVGVHZqn=rivjzzzzzzzz
+zzzzvRmumumumumurRzzzzzzzzzzzzzz
+}
+
+!define v8_WebService(_alias) ENTITY(webservice,_alias)
+!define v8_WebService(_alias, _label) ENTITY(webservice,_alias,_label)
+!define _ВебСервис(_alias) ENTITY(webservice,_alias)
+!define _ВебСервис(_alias, _label) ENTITY(webservice,_alias,_label)
+
+@enduml

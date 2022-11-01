@@ -1,0 +1,27 @@
+@startuml v8_Bot
+
+sprite $bot [16x16/color] {
+zzzzzzzzzzvivivivivivizzzzzzzzzz
+zzzzzzvirRrRrRrRrRrRrRrRvizzzzzz
+zzzzvirRn>vhvizzzzvivin>rRvizzzz
+zzvirRn>n>vivirSrSvivin>n>rRvizz
+zzrRn>rRn>n>iwiviviwn>n>rRn>rRzz
+zzn>n>rRrRn>mwiwiwmwn>rRrRn>n>zz
+zzivn>eeS:SeSOS:S:SOSeS:een>ivzz
+n>eeivNK&n$<;c:o:o;c$<&nJKiveen>
+W:eeiv~***$h@<~L~L@<$h**~*iveeW:
+W-eeiwJL?+@QKPNtNtKP@Q?+JLiweeW:
+ivaNevS;JcJtNuNtNtNuJtJcS;evaNiv
+zziveeewW<NtNdNdNdNdNtW<eweeivzz
+zzrReeefewegegewegegegewefeerRzz
+zzzzrReeRraNivn>n>iwaNRreerRzzzz
+zzzzzzrRW:RrRrW:W:RrRrW:rRzzzzzz
+zzzzzzzzzzn>ivivivivn>zzzzzzzzzz
+}
+
+!define v8_Bot(_alias) ENTITY(bot,_alias)
+!define v8_Bot(_alias, _label) ENTITY(bot,_alias,_label)
+!define _Бот(_alias) ENTITY(bot,_alias)
+!define _Бот(_alias, _label) ENTITY(bot,_alias,_label)
+
+@enduml

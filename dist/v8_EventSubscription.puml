@@ -1,0 +1,27 @@
+@startuml v8_EventSubscription
+
+sprite $eventsubscription [16x16/color] {
+zzzzzzzzzzzzzzzzzzvhr<r<r<r<quvR
+vinRnRnRnRnRnRnRrRr=qtqsqqi$i&vR
+rSj>nRnRnRnRnRj>n<vhzzzhvMqrvQzz
+nRnRzzzzzzzzvirPvPzivgv-iKn=zzzz
+nRnRzzzzzzvhrPvPzivgv-qreeiwzzzz
+nRnRzzzzzzrQrOzivgqrqcvij>iwzzzz
+nRnRzzzzzgvOvhzguqm%mKqtaNiwzzzz
+nRnRzzzzv;uZqsv:v-uom$mKaNiwzzzz
+nRnRzzvzvQusqar+zbuomcvhiwiwzzzz
+nRn?vzvjvjvzvgzKqYmbrRvziwiwzzzz
+nRj?vjrjrjrhvMqXiLnRrjvziwiwzzzz
+nRj?rjrinRr:qXiLn?rjrivjewiwzzzz
+nRj?rinSn<mIiKj>nSnSnSriewiwzzzz
+nRj?vjrjmtiLrRrjrjrjrjvziwiwzzzz
+rSewj>j>aeaej>j>iwiwiwj>afj>zzzz
+vinRj>j>j>j>j>j>j>j>j>j>n?vizzzz
+}
+
+!define v8_EventSubscription(_alias) ENTITY(eventsubscription,_alias)
+!define v8_EventSubscription(_alias, _label) ENTITY(eventsubscription,_alias,_label)
+!define _ПодпискаНаСобытие(_alias) ENTITY(eventsubscription,_alias)
+!define _ПодпискаНаСобытие(_alias, _label) ENTITY(eventsubscription,_alias,_label)
+
+@enduml

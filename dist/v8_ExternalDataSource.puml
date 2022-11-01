@@ -1,0 +1,27 @@
+@startuml v8_ExternalDataSource
+
+sprite $externaldatasource [16x16/color] {
+zzzzzzvzvzvzvzvzzzzzzzzzzzzzzzzz
+vzrinSnRnRnSnRnSnSrivjzzzzzzzzzz
+nSewnSrjrjrjrjrjjSafj?zzzzzzzzzz
+j?SfnivzrjrjnSjSWw~tafzzzzzzzzzz
+f>OPjSnjfSWxSgK<~t;MWfzzzzzzzzzz
+j>OPjSnjfSWxOQK<?t?cawzzzzzzzzzz
+j>OPjSnjfSWxOgK=K<SOj>vhvizzzzzz
+j>OPjSnjfSWxOgOPWgece&e&iJr=zzzz
+j>OPjSnjfSWxOgSgeumaqpmXdmmtzzzz
+j>OPjSnjfSWxWgawibupzdv+dliLvizz
+j?OPfSnjfSb?axedi%qpvNqphmdniJrP
+rSWgaxjSf@f@eumZqYmHmHmHqYqYdmmt
+vznSj?exawj?mcqpzdqpi#qpzduqdlmt
+zzzzvzvjvivzqsqpvMqpm$qpvMqpi&r=
+zzzzzzzzzzzzvPqamJqaqrqamJqavOzy
+zzzzzzzzzzzzzzzivhzizyzivhzizzzz
+}
+
+!define v8_ExternalDataSource(_alias) ENTITY(externaldatasource,_alias)
+!define v8_ExternalDataSource(_alias, _label) ENTITY(externaldatasource,_alias,_label)
+!define _ВнешнийИсточникДанных(_alias) ENTITY(externaldatasource,_alias)
+!define _ВнешнийИсточникДанных(_alias, _label) ENTITY(externaldatasource,_alias,_label)
+
+@enduml

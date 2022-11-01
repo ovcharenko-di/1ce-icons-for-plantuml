@@ -1,0 +1,27 @@
+@startuml v8_HttpService
+
+sprite $httpservice [16x16/color] {
+zzzzvjj@ShOhKgGR@R<><>G>f@vjzzzz
+zzvjayOhSwX>OxGh@R<R<=<<?vWhvjzz
+zzayKRKhX?X>SxOyGh@gGdGb*u;vf@zz
+rSKRGROxX?b?X?SxOvOrKZKZ<:*eG>nS
+WxGRGhT>b=fPfOb;T-KoGW@X@K*t;fWh
+K>@QKvSub;bNbMXLP*Go@G@G@J*s*eK>
+?wKfX;SuStX:T-P*Ko@X<G@G@I*c*e?w
+G>f>nQfPOtSsX:T+OpKoGX@G@&*c*N?v
+OQj>W:jPbOjPnQrhrgjPf<OaGL@;?uK>
+f@j>Naeurhj>Rrj>n?RrivnRj>ewj?f?
+vjnRJJNaaNaN~&NbWN~&Rrn>RrNaaOvi
+zzrRNaaNRreeNaiwj>Naiwn?NaaNRrvi
+zzrRRrefRrevNrj>nRNaj>n?NbaeRrvR
+zzrRW:ivW:j>W:Rsn>W:W:iwJJNaeevi
+zzzzvivivivirSnRvirSrRrRRrn>vizz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_HttpService(_alias) ENTITY(httpservice,_alias)
+!define v8_HttpService(_alias, _label) ENTITY(httpservice,_alias,_label)
+!define _СервисHTTP(_alias) ENTITY(httpservice,_alias)
+!define _СервисHTTP(_alias, _label) ENTITY(httpservice,_alias,_label)
+
+@enduml

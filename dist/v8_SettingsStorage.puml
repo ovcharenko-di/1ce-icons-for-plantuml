@@ -1,0 +1,27 @@
+@startuml v8_SettingsStorage
+
+sprite $settingsstorage [16x16/color] {
+zzzzrRiwrRivrRrRj>WfWPWfawj?rSvj
+zzmvivefefefivivvirinSnSjSj?ewew
+rRivaOW;aNaOeeeerRvzvzrjrjrjf?~t
+n>efW;een>efeeaOievivzrjrjnjWw?M
+rRefaOn>rSivefaen>vzrjnSf?WgJt;L
+iveeeeefivefefaNeenSb?SgOO~u?d;L
+rReeeeeeefeeaNaNn>rib?SgKP~u?d;L
+zziveeaNaNW;aNeevinjb?SgOPG<?d;L
+zzvirReen>een>virjjSaxSgOPG<?d;L
+zzzzzzvij?nRrinjnjjSaxSgOPG<?d;L
+zzzzzzviOOSgb?fSnjjSaxSgOPG<?d;L
+zzzzzzriK;KPWxfSnjjSaxSgOPG<?d;L
+zzzzzzviO<K<WxfSnjjTb@SgOP~u?c?c
+zzzzzzvjawOOSgf@jSf@WxSgKP~t~tSO
+zzzzzzzzvij?ewawawWgWfSPSPWfj?vi
+zzzzzzzzzzzzvzvjvivivivivivzzzzz
+}
+
+!define v8_SettingsStorage(_alias) ENTITY(settingsstorage,_alias)
+!define v8_SettingsStorage(_alias, _label) ENTITY(settingsstorage,_alias,_label)
+!define _ХранилищеНастроек(_alias) ENTITY(settingsstorage,_alias)
+!define _ХранилищеНастроек(_alias, _label) ENTITY(settingsstorage,_alias,_label)
+
+@enduml

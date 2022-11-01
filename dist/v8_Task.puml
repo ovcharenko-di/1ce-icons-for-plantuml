@@ -1,0 +1,27 @@
+@startuml v8_Task
+
+sprite $task [16x16/color] {
+zzzzzzvjvjvjvjvjvjvjvzzzzzzzzzzz
+zzvzn?j>j>j>j>j>j?j?j>rRzzzzzzzz
+zzvij>rivjvivivjvjrif>j?rSzzzzzz
+zzvij?vivivivivivivij?j?j?rSzzzz
+zzvij?rSewnRn>eeivvinSjRf>ewvizz
+zzvij?rirSvivirRvivivRvRrRefvizz
+zzvij?rSf?nRn>ivn>rRueuNrRafvizz
+zzvij?rinSrRivn>ivrRv>v>rRafvizz
+zzvij?nSexn?j>ivj>rRqeqNrRafvizz
+zzvij?rSjRnSnRn?n?rRr>r>rRafvizz
+zzvij?nSawf?iwaOaeiwmdqNr?afvizz
+zzvij>nSj?j?j?ewewj?mwqvrRafvizz
+zzvij?nSawf?iwaOaOiwmNqMr?afvizz
+zzviewnRnRnSnRn?n?nRn?r?n?afvizz
+zzvievafafafafavavafavavafewvizz
+zzzzvivivivivivivivivivivivzzzzz
+}
+
+!define v8_Task(_alias) ENTITY(task,_alias)
+!define v8_Task(_alias, _label) ENTITY(task,_alias,_label)
+!define _Задача(_alias) ENTITY(task,_alias)
+!define _Задача(_alias, _label) ENTITY(task,_alias,_label)
+
+@enduml
