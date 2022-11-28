@@ -1,0 +1,27 @@
+@startuml v8_AccountingRg
+
+sprite $accountingrg [16x16/color] {
+zzzzvzvjvjvjvjvjvjvjvjvjvjvjzzzz
+zzrij?j>j?j?j?j?j?j?j>j>j?ewrRzz
+zznRj?viririririririviviviewiwzz
+zznRnRrib?b?b?axWfj?zzzzzziwiwzz
+zznRnRnRSgSgSgO<O;ewzzzzzziwiwzz
+zznRnRvzvijSOPWfnRrivzvjzziwiwzz
+zznRnRzzzznSK<JtWgb?axSfj?iwiwzz
+zznRnRzzzzjSK<~cSPSgO<Jtewj>iwzz
+zznRn?vzvzjSK=Wfj@OPWfrSviiwiwzz
+zznRj?vjvjjSWgf?jSK<agvzvziwiwzz
+zznRj?vjririnSrif@K<Wfrjvjewiwzz
+zznRj?rinSnSririf@K<Wfrirjewiwzz
+zznRj?rirSriririjSWgawrivjewiwzz
+zznRj?rirSrSrSrSnSnSnSrSrieviwzz
+zzriewafafafafafafafafafafafnRzz
+zzzzvivivivivivivivivivivivizzzz
+}
+
+!define v8_AccountingRg(_alias) ENTITY(accountingrg,_alias)
+!define v8_AccountingRg(_alias, _label) ENTITY(accountingrg,_alias,_label)
+!define _РегистрБухгалтерии(_alias) ENTITY(accountingrg,_alias)
+!define _РегистрБухгалтерии(_alias, _label) ENTITY(accountingrg,_alias,_label)
+
+@enduml

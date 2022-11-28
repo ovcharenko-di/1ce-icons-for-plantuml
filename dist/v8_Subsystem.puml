@@ -1,0 +1,27 @@
+@startuml v8_Subsystem
+
+sprite $subsystem [16x16/color] {
+zzzzzyvRr=mumur=vizzzzzzzzzzzzzz
+zzzzr>v<qtmciKe+muzzzzzzzzzzzzzz
+zzzzr=mcmci-dqdpmuzzzzzzzzzzzzzz
+zzzzvhieideMVqmuzizzzzzzzzzzzzzz
+zzzzn?ewrSrSj?j?zzzzzzzzzzzzzzzz
+zzj?f>rizzzzrSewj?zzzzzzzzzzzzzz
+r=aMeMmtr=zizzmveMidmdr=vizzzzzz
+mdmciLe+e+mvvQqtmciLi+e+muzzzzzz
+mcmciLe+Zpmvr=mcmci+dpdpmuzzzzzz
+r=muididr=zyviieideMVqmuzizzzzzz
+zzzzzzzzzzzzj?j>rSrSf>j?zzzzzzzz
+zzzzzzzzzzj?ewrizzzzrif>j?zzzzzz
+zzzyvRr=ida-eezizzzyvRida:idr>vi
+zzr>v<mciLe+dqmuzzrQuumciLe+e+n=
+zzr=mcmci+dpdpmuzzr=mcmci-dpdqn=
+zzzivQmumdmdr=zizzzivQmumdidr>vi
+}
+
+!define v8_Subsystem(_alias) ENTITY(subsystem,_alias)
+!define v8_Subsystem(_alias, _label) ENTITY(subsystem,_alias,_label)
+!define _Пoдсистема(_alias) ENTITY(subsystem,_alias)
+!define _Пoдсистема(_alias, _label) ENTITY(subsystem,_alias,_label)
+
+@enduml

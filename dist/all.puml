@@ -6,4 +6,45 @@
 !include v8_InfoRg.puml
 !include v8_Enum.puml
 
+!include v8_AccountingRg.puml
+!include v8_BusinessProcess.puml
+!include v8_CalculationRg.puml
+!include v8_ChartOfAccounts.puml
+!include v8_ChartOfCalculationTypes.puml
+!include v8_ChartOfCharacteristicTypes.puml
+!include v8_CommonForm.puml
+!include v8_CommonPicture.puml
+!include v8_Const.puml
+!include v8_DataProcessor.puml
+!include v8_DocumentJournal.puml
+!include v8_ExternalDataSource.puml
+!include v8_HttpService.puml
+!include v8_IntegrationService.puml
+!include v8_Language.puml
+!include v8_Report.puml
+!include v8_Style.puml
+!include v8_StyleItem.puml
+!include v8_Subsystem.puml
+!include v8_Task.puml
+!include v8_WebService.puml
+!include v8_WsReference.puml
+!include v8_XdtoPackage.puml
+
+!include v8_Role.puml
+!include v8_CommonAttribute.puml
+!include v8_ExchangePlan.puml
+!include v8_FilterCriteria.puml
+!include v8_EventSubscription.puml
+!include v8_ScheduledJob.puml
+!include v8_Bot.puml
+!include v8_FunctionalOption.puml
+!include v8_FunctionalOptionsParameters.puml
+!include v8_DefinedType.puml
+!include v8_SettingsStorage.puml
+!include v8_CommonCommand.puml
+!include v8_CommandGroup.puml
+
+!include v8_CommonModule.puml
+!include v8_SessionParameter.puml
+
 @enduml

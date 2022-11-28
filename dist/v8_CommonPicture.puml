@@ -1,0 +1,27 @@
+@startuml v8_CommonPicture
+
+sprite $commonpicture [16x16/color] {
+zzzzzzvivivivivivivivivivizzzzzz
+zzrSj>ewewewegagagafafafafiwrRzz
+vij>WPSPSQSPSPSPSPSPSPS=O=SOiwvi
+viewWPWgSgSQagj?nSnSn@j?WgWPewvi
+vij>agaxaxWgagn?vivirij?ewafj>vi
+vij>awaxaxWhWgagj?j?j?axawagj>vi
+vij>awaxaxaxaxawewexf?exexawj>vi
+vij>ewj?j?j?jRj?nRnRnRnRnRj>n?vi
+viivadeuiviviveveuj<j=j=ivevn>vi
+viacNoNnRoRpNpJoJnJnO&RqRpRqedvi
+viacJnJmJmJmJmK$K$K$K$O$O$O&ecvi
+viasOHOGOGOGOGSWSWSWOWSWOWOXasvi
+viasOXOWOWOGOGOGOGOWSWSWSWSXesvi
+zzj<WqOXSXSYSYSYSYSYSYSYSYWqj=zz
+zzvinQj<j<j<j<j<j<j<j<j<j<nQvizz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_CommonPicture(_alias) ENTITY(commonpicture,_alias)
+!define v8_CommonPicture(_alias, _label) ENTITY(commonpicture,_alias,_label)
+!define _ОбщаяКартинка(_alias) ENTITY(commonpicture,_alias)
+!define _ОбщаяКартинка(_alias, _label) ENTITY(commonpicture,_alias,_label)
+
+@enduml

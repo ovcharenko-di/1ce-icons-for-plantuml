@@ -1,0 +1,27 @@
+@startuml v8_FilterCriteria
+
+sprite $filtercriteria [16x16/color] {
+zzn>ivn>n>n>n>rRrRrRn>n>n>ivn>zz
+zzW:WNeeiviviviviveveeaeaNW:Rrvi
+zzj>ivn?vizzzzrRn>n>ivefivaNeevi
+zzviiveen>vjzzrRn>iveeeeaNeevizz
+zzviviiveerRzzrRiwivivaeeerRrRzz
+zzj?vjviiwivrRviiveeeeivvivievvi
+zzj?vizzviivivrReeW;ivvizzviafvi
+zzj?riz>z>rRaen>aNW:rRz>zRriafvi
+zzj?rSv>v=vRaen>aNW:vRv>vRrSafvi
+zzj?rivjvjriaNn>aNS:rRv=viriafvi
+zzj?ririrjrSaNn>aNRrrRuvrSriafvi
+zzj?riririvieeaNRraNvinRj>rRefvi
+zzj?rSnSnSvirRivifrRvij?j>nRefvi
+zzj?rirjrjvjzzzzzzzzvjrjvjriafvi
+zzj>j>j?j?j?j?j?j?j?j?j?j?iwevvi
+zzrSn?n?n?n?n?n?n?n?n?n?n?n?rRzz
+}
+
+!define v8_FilterCriteria(_alias) ENTITY(filtercriteria,_alias)
+!define v8_FilterCriteria(_alias, _label) ENTITY(filtercriteria,_alias,_label)
+!define _КритерииОтбора(_alias) ENTITY(filtercriteria,_alias)
+!define _КритерииОтбора(_alias, _label) ENTITY(filtercriteria,_alias,_label)
+
+@enduml

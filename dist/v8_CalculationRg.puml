@@ -1,0 +1,27 @@
+@startuml v8_CalculationRg
+
+sprite $calculationrg [16x16/color] {
+zzzzvjvjvjvjvjvjvjvjvjvjvjzzzzzz
+zzn?j>j>j>j>j>j>j>j>j>j?ewj>vizz
+vjj>rivivivivivivivivivirRafvizz
+vjj?vizzzzzzzzzzzzzzzzzzriaevizz
+vjj?vizzzzzzzzvizzzzzzzzriafvizz
+vjj?vizzzzvinQatnPvizzzzviafvizz
+vjj?vivinPWbK&G$K&Wbn=vhriafvizz
+vjj?rietOJK%G$G$G$K%OIasrRafvizz
+vjj?rivij=WrSZOYSYWqf;rhriafvizz
+vjj>rivzvjvinPf;nPrivivzriafvizz
+vjj>rirjrjrjvjvivjrjrjrjrSafvizz
+vjj>rSrinSnSrSrirSnSnSrirSafvizz
+vjj>rSrinSrirSnSrSrSrSrirSafvizz
+vjj>nSrSrSrSrSrSrSrSrSrinRaevizz
+zzj?afafafafafafafafafafafewvizz
+zzzzvivivivivivivivivivivivzzzzz
+}
+
+!define v8_CalculationRg(_alias) ENTITY(calculationrg,_alias)
+!define v8_CalculationRg(_alias, _label) ENTITY(calculationrg,_alias,_label)
+!define _РегистрРасчета(_alias) ENTITY(calculationrg,_alias)
+!define _РегистрРасчета(_alias, _label) ENTITY(calculationrg,_alias,_label)
+
+@enduml

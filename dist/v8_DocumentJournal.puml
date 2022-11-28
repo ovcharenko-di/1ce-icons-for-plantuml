@@ -1,0 +1,27 @@
+@startuml v8_DocumentJournal
+
+sprite $documentjournal [16x16/color] {
+zzzzvirRnRnQnQnQnQnQnQnQnQrRvizz
+zzrRevetatatatateueueueuj=j=j>zz
+vyeuWcWrWrWrasasasasatetj<nQivvi
+vieuasarWqWqWaWaWaWaWaSaWbnPeuvi
+vyj<jNfMjNnenenenejNfMb-Saj=euvi
+vyf;jNjMrfvhvyvyvhnffMb-Saj=euvi
+vyf;jNjMjNnOnOnOnOjNf-arSKj<euvi
+vyf;f:WaWaf:f-b+b+b+b+WqSKf<euvi
+vyf;f:ababjNb-aqWqWqWqWqOJf<euvi
+vyf;f:fMf:f:aqWqWpWpWpWaOJeteuvi
+vif;b-SJSJaqWqSpSZSYSZSaO*ateuvi
+viasarSKWaf:WpSYOYOIOYSZK&aseuvi
+viasarWqWqWqSYOIOHKHOHOJK&Wseuvi
+viasWqSYOIOHOHKHKHK$KHOIG%Wbeuvi
+viasWaSYOIOIOIOIOIOIOIOIK&f<rRzz
+zyf<WbOJK&K&K&K&K&O*OJOKacvizzzz
+}
+
+!define v8_DocumentJournal(_alias) ENTITY(documentjournal,_alias)
+!define v8_DocumentJournal(_alias, _label) ENTITY(documentjournal,_alias,_label)
+!define _ЖурналДокументов(_alias) ENTITY(documentjournal,_alias)
+!define _ЖурналДокументов(_alias, _label) ENTITY(documentjournal,_alias,_label)
+
+@enduml

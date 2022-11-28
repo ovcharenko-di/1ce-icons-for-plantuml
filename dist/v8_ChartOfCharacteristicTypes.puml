@@ -1,0 +1,29 @@
+@startuml v8_ChartOfCharacteristicTypes
+
+
+sprite $chartofcharacteristictypes [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzviririririririririririvizzzz
+zznRSOK;JtJtJtJtJtJtJtJt~tSOnRzz
+zzj>O;NtO;O;O;O;O;O;O;O;NtO;j>zz
+zznRj?virSrSrSrSrSrSrSrSvieviwzz
+zznSrSvznRnRnRnRnRnRnRnRvzj>j>zz
+zznRnRvjn>n>n>n>n>n>n>n>vjiwj>zz
+zznRnRvzj>j>j>j>j>j>j>j>vziwj>zz
+zznRnRvjn>n>n>n>n>n>n>n>vjiwj>zz
+zznRnRvzj>j>n>n>n>n>n>j>vziwj>zz
+zznRnRrSj>j>j>j>j>j>j>j>riiwj>zz
+zznRnRewafafafafafafafafexiwj>zz
+zznRn?rSrRrRrRrRrRrRrRrRrSewj>zz
+zzriiwewewewewewewewewewewevrRzz
+zzzzvivivivivivivivivivivivizzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+
+!define v8_ChartOfCharacteristicTypes(_alias) ENTITY(chartofcharacteristictypes,_alias)
+!define v8_ChartOfCharacteristicTypes(_alias, _label) ENTITY(chartofcharacteristictypes,_alias,_label)
+!define _ПланВидовХарактеристик(_alias) ENTITY(chartofcharacteristictypes,_alias)
+!define _ПланВидовХарактеристик(_alias, _label) ENTITY(chartofcharacteristictypes,_alias,_label)
+
+@enduml

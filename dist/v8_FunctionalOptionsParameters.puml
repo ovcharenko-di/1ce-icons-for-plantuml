@@ -1,0 +1,27 @@
+@startuml v8_FunctionalOptionsParameters
+
+sprite $functionaloptionsparameters [16x16/color] {
+zzzzvizzzzzzzzzzzzzzvizzzzzzzzzz
+zziveevizzzzzzzzzzvieeivzzzzzzzz
+zzaNn>zzzzzzzzzzzzzzn>aNvizzzzzz
+viRrrRzzzzzzzzzzzzzzrRW:rRzzzzzz
+viRrrRzzzzzzzzzzzzzzrRRrrRzzzzzz
+viRrrRzzvivivivivizzrRW:rRzzzzzz
+zzaNn>n>aNivaNivaNn>n>aNvizzzzzz
+zziveerRn>rRn>rRn>rReen>zzzzzzzz
+zzvivizzzzzzzzzzzzzzvizzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzyvivhvhvhzizzzzzzzzzzzzzzzzzz
+zzqumciLe+e+idvivivivivivivivizz
+zzmMqdmciLdpZqivaNivaNivaNivaNrR
+zzmumMe-dqZqidrRn>rRn>rRn>rRn>vi
+zzzivivhvRvhzizzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_FunctionalOptionsParameters(_alias) ENTITY(functionaloptionsparameters,_alias)
+!define v8_FunctionalOptionsParameters(_alias, _label) ENTITY(functionaloptionsparameters,_alias,_label)
+!define _ПараметрыФункциональныхОпций(_alias) ENTITY(functionaloptionsparameters,_alias)
+!define _ПараметрыФункциональныхОпций(_alias, _label) ENTITY(functionaloptionsparameters,_alias,_label)
+
+@enduml

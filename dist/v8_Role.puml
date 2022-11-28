@@ -1,0 +1,27 @@
+@startuml v8_Role
+
+sprite $role [16x16/color] {
+zzzzzzzzzyzyzyzyzyzyzzzzzzzzzzzz
+zzzzzzvPr:r:rNrNr:r:v=zyzzzzzzzz
+zzzzzyr:v-vOvgvgver-qrzizzzzzzzz
+zzzzzir:r-vOzhzhveqqmavhzzzzzzzz
+zzzzzyn-mZmrmrmrmriJiJvhzzzzzzzz
+zzzzzyr:iZiIi&i&iIiIiKvizzzzzzzz
+zzzzzzvPmbe*ZYZYdpmbr=zzzzzzzzzz
+zzzzzzzzvhedRqRaRrrRzzzzzzzzzzzz
+zzzzzzzzzzn>W;W:W:vizzzzzzzzzzzz
+zzzzzzzzzzn>eeaNaNvizzzzzzzzzzzz
+zzzzzzzzzzrReeaNaNvizzzzzzzzzzzz
+zzzzzzzzzzn>eeaNaNvizzzzzzzzzzzz
+zzzzzzzzzzrReeaNaNvizzzzzzzzzzzz
+zzzzzzzzzzviivaNW:vizzzzzzzzzzzz
+zzzzzzzzzzzzn>iveevizzzzzzzzzzzz
+zzzzzzzzzzzzzzzzvizzzzzzzzzzzzzz
+}
+
+!define v8_Role(_alias) ENTITY(role,_alias)
+!define v8_Role(_alias, _label) ENTITY(role,_alias,_label)
+!define _Роль(_alias) ENTITY(role,_alias)
+!define _Роль(_alias, _label) ENTITY(role,_alias,_label)
+
+@enduml
